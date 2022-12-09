@@ -1,0 +1,47 @@
+.form-container{
+  
+  margin: 90px auto ;
+  padding-left: 80px;
+  border: 1px solid #cecece;
+  width: 590px;
+  height: 680px;
+  border-radius: 6px;
+}
+.labels{
+  font-size: 16px;
+  margin-right: 40px;
+}
+.input-field{
+  padding: 15px 20px;
+  width: 290px;
+  border: 1px solid #cecece;
+  font-size: 13px;
+  margin-left: 25px;
+}
+.email{
+  margin-right: 70px;
+}
+.form-field{
+  padding-top: 30px;
+}
+form{
+  margin-top: 80px;
+}
+.submit-btn{
+  background-color: #46b486;
+  border: none;
+  padding: 15px 30px;
+  margin-top: 70px;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.dont{
+  margin-top: 50px;
+}
