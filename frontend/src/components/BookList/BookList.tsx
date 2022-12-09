@@ -1,13 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-const BookList: React.FC = () => {
-  const [books, setBooks] = useState([
-    { title: "The Catcher in the Rye", author: "J.D. Salinger" },
-    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
-    { title: "To Kill a Mockingbird", author: "Harper Lee" },
-    { title: "Pride and Prejudice", author: "Jane Austen" },
-  ]);
+interface BookListType {
+  books: Array<any>;
+}
 
+const BookList: React.FC<BookListType> = ({ books }) => {
   return (
     <ul className="list-none">
       {books.map((book, index) => (
